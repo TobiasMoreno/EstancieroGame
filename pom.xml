@@ -108,12 +108,14 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.12</version>
+                <!--
                 <configuration>
                     <excludes>
                         <exclude>**/ar/edu/utn/frc/tup/lc/iii/*Test.class</exclude>
                         <exclude>**/config/*</exclude>
                     </excludes>
                 </configuration>
+                -->
                 <executions>
                     <execution>
                         <id>default-prepare-agent</id>
